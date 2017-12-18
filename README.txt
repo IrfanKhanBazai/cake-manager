@@ -16,11 +16,11 @@ Notes:
 http://localhost:8080/cakes  
 http://localhost:8080/
 
-2- For find a cake of particular name
+2- To find a cake of particular name use the following url:
 
 http://localhost:8080/cakes/<name>
 
- 3 - For adding cake please use following url
+ 3 - For adding new cake please use following url:
 
 url : http://localhost:8080/cakes
 method : POST
@@ -31,7 +31,7 @@ json sample request format
    "image"  : "http:imageurl/image"
 }  
 
-The above endpoint create a new cake entry and on successful create return the status code 200 along with the list of all the cakes
+The above endpoint creates a new cake entry and on successful creation return the status code 200 along with the list of all the cakes
 including the newly created cake.
 
 Things assumed not to be required for this test:
